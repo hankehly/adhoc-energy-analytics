@@ -2,8 +2,6 @@
 
 ## Data Sources
 
-<!-- Show a table with Source Name, Organization, Description, Format -->
-
 | Source Name | Organization | Description | Format |
 | --------- | ------- | -------- | ------ |
 | [EIA-860M Monthly Electric Generator Inventory](https://www.eia.gov/electricity/data/eia860M/) | EIA (U.S. Energy Information Administration) | Monthly estimates of existing and proposed electric power generating units (1 MW or greater), including retirements since 2002 and Puerto Rico data since 2018. Capacities are preliminary estimates and subject to revision. | CSV |
