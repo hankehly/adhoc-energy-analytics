@@ -1,12 +1,19 @@
 import tempfile
 from pathlib import Path
 
-PROJECT_DIR = Path(__file__).parent.parent
-DATA_DIR = PROJECT_DIR / "data"
-OUTPUT_DIR = PROJECT_DIR / "output"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+DATA_DIR = PROJECT_ROOT / "data"
+RAW_DATA_DIR = DATA_DIR / "raw"
+PROCESSED_DATA_DIR = DATA_DIR / "processed"
+CONFIG_DIR = PROJECT_ROOT / "config"
 TEMP_DIR = Path(tempfile.gettempdir())
 
-
-def create_dirs():
-    for dir in [DATA_DIR, OUTPUT_DIR]:
-        dir.mkdir(exist_ok=True)
+if __name__ == "__main__":
+    # Print all paths for debugging
+    print(f"PROJECT_ROOT: {PROJECT_ROOT}")
+    print(f"DATA_DIR: {DATA_DIR}")
+    print(f"RAW_DATA_DIR: {RAW_DATA_DIR}")
+    print(f"PROCESSED_DATA_DIR: {PROCESSED_DATA_DIR}")
+    print(f"CONFIG_DIR: {CONFIG_DIR}")
+    print(f"TEMP_DIR: {TEMP_DIR}")
