@@ -9,6 +9,11 @@ PROCESSED_DATA_DIR = DATA_DIR / "processed"
 CONFIG_DIR = PROJECT_ROOT / "config"
 TEMP_DIR = Path(tempfile.gettempdir())
 
+
+def get_default_download_dir():
+    return RAW_DATA_DIR
+
+
 if __name__ == "__main__":
     # Print all paths for debugging
     print(f"PROJECT_ROOT: {PROJECT_ROOT}")

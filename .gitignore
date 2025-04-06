@@ -1,4 +1,5 @@
 .venv/
 output/
 data/
-mlflow.db
+mlflow/mlflow.db
+mlflow/artifacts
