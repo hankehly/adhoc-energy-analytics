@@ -9,3 +9,4 @@
 | [JEPX Transmission Rights Market Data](https://www.jepx.jp/electricpower/market-data/transmission_rights/) | JEPX | Data on transmission rights and electricity market transactions in Japan. | CSV |
 | [SPP TCR Auction Historical Results](https://portal.spp.org/pages/tcr-auction-historical-results) | SPP (Southwest Power Pool) | Data on Transmission Congestion Rights (TCR) auction results, including historical pricing and awarded transmission rights. | CSV |
 | [NYISO Generator Names](https://mis.nyiso.com/public/csv/generator/generator.csv) | NYISO (New York Independent System Operator) | List of generator names and their corresponding IDs in the NYISO system. | CSV |
+| [20* State of the Market Report for the New York ISO Markets](https://www.potomaceconomics.com/document-library/?filtermarket=NYISO&filtertype=report&filterorder=DESC) | Potomac Economics | Yearly report containing insights into reasons for rising/falling congestion revenues. | PDF |
