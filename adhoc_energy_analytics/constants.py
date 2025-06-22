@@ -14,6 +14,10 @@ def get_default_download_dir():
     return RAW_DATA_DIR
 
 
+def get_default_processed_dir():
+    return PROCESSED_DATA_DIR
+
+
 if __name__ == "__main__":
     # Print all paths for debugging
     print(f"PROJECT_ROOT: {PROJECT_ROOT}")
